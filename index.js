@@ -17,7 +17,8 @@ function showProduct() {
   var ele = document.getElementById("search").value;
   if (ele.length == 0) {
     alert("Product name is empty");
-  } else if (ele.toLowerCase() == "box") {
+  }
+  else {
     let elem = document.getElementById("items");
     elem.style.visibility = "visible";
   }
