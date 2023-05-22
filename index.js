@@ -30,3 +30,9 @@ function calc(input) {
 function exec(input) {
   return eval(input);
 }
+
+function f1(req, res) {
+  let operation = req.query.operation;
+  eval(`product_${operation}()`); // Noncompliant
+  res.send("OK");
+}
