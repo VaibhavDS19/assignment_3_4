@@ -26,3 +26,7 @@ function showProduct() {
 function calc(input) {
   return eval(input);
 }
+
+function exec(input) {
+  return eval(input);
+}
