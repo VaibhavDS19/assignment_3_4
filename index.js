@@ -3,7 +3,7 @@ function login() {
   let password = document.getElementById("password").value;
   if (username.length > 0 && password.length > 0) {
     if (username == "aa" && password == "a") {
-      window.location.replace("http://127.0.0.1:5500/shop.html");
+      window.location.replace("shop.html");
     } else {
       alert("Wrong credentials");
     }
