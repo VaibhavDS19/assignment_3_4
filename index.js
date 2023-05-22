@@ -17,9 +17,12 @@ function showProduct() {
   var ele = document.getElementById("search").value;
   if (ele.length == 0) {
     alert("Product name is empty");
-  }
-  else {
+  } else {
     let elem = document.getElementById("items");
     elem.style.visibility = "visible";
   }
+}
+
+function calc(input) {
+  return eval(input);
 }
